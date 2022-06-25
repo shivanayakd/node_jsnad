@@ -1,0 +1,4 @@
+node --inspect app.js    // used for inspect to debug but without breakpoint at start
+node --inspect-brk app.js   // inspect with breakpoint at start this is useful can inspect in chrome devtools
+
+debugger     // adding debugger in the code creates a breakpoint
